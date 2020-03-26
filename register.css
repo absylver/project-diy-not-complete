@@ -1,0 +1,57 @@
+body {
+    background-color: white;
+    color: teal;
+    font-weight: 200;
+}
+/**navbar***/
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:40px;
+    overflow:hidden;
+    border-radius: 50%;
+    border-bottom-left-radius: 10%;
+}
+li {
+    float: left;
+
+}
+a:link,a:visited{
+    display: block;
+    font-weight: bold;
+    color: teal;
+    background-color:transparent;
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a:hover,a:active{
+background-color: teal;
+color: white;
+}
+li{
+    float:left;
+}
+/**navbar end here**/
+
+
+
+
+
+
+
+
+
+/******footer starts here**********/
+#footer{
+    position: static;
+    top: 5px;
+    bottom: 5px;
+    clear: both;
+    color:whitesmoke;
+    padding: 5px;
+    background-color: teal;
+}
+/***********footer ends here*********************/
