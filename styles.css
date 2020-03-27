@@ -104,7 +104,10 @@ p
     font-size: 18px;
     font-weight: lighter;
 }
-
+img{
+    max-width: 100%;
+    height: auto;
+}
 
 
 #footer{
