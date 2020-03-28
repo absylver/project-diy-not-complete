@@ -41,10 +41,9 @@ li{
 .box
 {
     
-    position: initial;
-    top: 0%;
-    left: 0%;
-    transform: translate(100%,0%);
+    position: relative;
+    top: 50%;
+    left: 30%;
     width: 250px;
     padding: 20px;
     background: rgba(0,0,0,.1);
@@ -103,11 +102,10 @@ p
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     font-weight: lighter;
+    padding: 10px;
+    width: auto;
 }
-img{
-    max-width: 100%;
-    height: auto;
-}
+
 
 
 #footer{
@@ -118,4 +116,35 @@ img{
     color:whitesmoke;
     padding: 5px;
     background-color: teal;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/********@media queries****/
+/***tablet****/
+@media screen and (max-width: 760px)
+{
+    .box{
+        width: 150px;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+}
+
+/****mobiles****/
+@media screen and (max-width: 480px)
+{
+.box{
+    width: 150px;
+    padding: 10px;
+    font-size: 10px;
+}
+label a:hover,a:active
+{
+    width: 50px;
+    padding: 10px;
+}
 }
