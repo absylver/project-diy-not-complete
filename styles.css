@@ -16,7 +16,7 @@ li {
     float: left;
 
 }
-a:link,a:visited{
+li a:link,a:visited{
     display: block;
     font-weight: bold;
     color: teal;
@@ -27,7 +27,7 @@ a:link,a:visited{
     text-transform: uppercase;
     text-decoration: none;
 }
-a:hover,a:active{
+li a:hover,a:active{
 background-color: teal;
 color: white;
 }
@@ -109,42 +109,115 @@ p
 
 
 #footer{
-    position: static;
-    top: 5px;
-    bottom: 5px;
-    clear: both;
+    position: relative;
     color:whitesmoke;
-    padding: 5px;
+    padding: 5px 4px 3px 4px;
     background-color: teal;
+
 }
+
+.second-footer{
+    position: static;
+    top:2px;
+    bottom: 3px;
+    padding: 5px;
+    background-color: skyblue;
+}
+ /***second footer stops here***/
+
+ .social {
+    position: relative;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .social a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* social */
+  
+    .social li a:link,a:visited{
+        display: block;
+        font-weight: bold;
+        color: teal;
+        background-color:transparent;
+        width: 200px;
+        text-align: center;
+        padding: 4px;
+        text-decoration: none;
+    }
+    li a:hover,a:active{
+    background-color: teal;
+    color: white;
+    }
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .whatsapp {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  }
+  
+  .instagram {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+
+  /********social stops here***/
+
+
+
 img{
     max-width: 100%;
     height: auto;
+    padding: 5px;
 }
 
 /********@media queries****/
-/***tablet****/
-@media screen and (max-width: 760px)
-{
-    .box{
-        width: 150px;
-        padding: 10px;
-        font-size: 10px;
-    }
-
-}
 
 /****mobiles****/
-@media screen and (max-width: 480px)
+@media only screen and (max-width: 480px)
 {
 .box{
     width: 150px;
     padding: 10px;
     font-size: 10px;
 }
-label a:hover,a:active
-{
+.label{
     width: 50px;
     padding: 10px;
 }
+.menuiconflat{
+    display: block;
+    height: 40px;
+    width: 100%;
+    background: url(menu.png) no-repeat 98% center;
+    background-color: white;
 }
+}
+
+@media only screen and (max-width: 767px) {
+    .responsive .box #header #main . {
+        display: block;
+    }
+    }
