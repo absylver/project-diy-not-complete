@@ -186,20 +186,15 @@ h1{font-weight: bold;
 }
 /***********footer ends here*********************/
 
-@media only screen and (max-width: 480px)
-{
-    p
-{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 3vw;
-    font-weight: lighter;
-    padding: 5px;
-    width: auto;
-    color: teal;
+@media only screen and (max-width: 480px){
+    .responsive {
+      width: 100%;
+    }
+
+    .box{
+        display: block;
+        width: 300px;
+        margin: 20px auto;
+    }
 }
 
-h1{font-weight: 100px;
-    color: teal;
-    font-style: bold;
-}
-}
