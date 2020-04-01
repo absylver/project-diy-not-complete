@@ -3,6 +3,12 @@ body {
     font-weight: 200;
 }
 /**navbar***/
+#header-inner
+{width: 100%;
+height: 80px;
+background-color:teal;}
+
+
 nav ul {
     list-style-type:none;
     margin:0;
@@ -18,7 +24,7 @@ nav ul li {
 nav ul li a:link,a:visited{
     display: block;
     font-weight: bold;
-    color: teal;
+    color: white;
     background-color:transparent;
     width: 200px;
     text-align: center;
@@ -166,4 +172,29 @@ img {
     .responsive {
       width: 100%;
     }
+
+    .menu{
+        display: block;
+        height: 40px;
+        width: 100%;
+        background: url(bars.svg) no-repeat 98% center;
+        background-color: teal;
+        cursor: pointer;
   }
+  nav ul {
+    overflow:hidden;
+    background: #505050;
+    height: 0;
+}
+
+#nav-bar nav ul li .open {
+    height: auto;
+
+}
+nav ul li a:link,a:visited{
+    
+}
+nav ul li a:hover,a:active{
+background-color: teal;
+color: white;
+}
