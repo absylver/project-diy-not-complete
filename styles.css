@@ -34,6 +34,7 @@ nav ul li a:link,a:visited{
     background-color:transparent;
     width: 200px;
     text-align: center;
+    font-family: cursive;
     padding: 4px;
     text-transform: uppercase;
     text-decoration: none;
@@ -185,15 +186,50 @@ h1{font-weight: bold;
 }
 /***********footer ends here*********************/
 
-@media only screen and (max-width: 480px){
-    .responsive {
-      width: 100%;
-    }
 
-    .box{
+@media screen and (max-width: 480px){   
+    
+       .box {
+        left: 0;
+        margin: auto;
+    }
+    
+    .burger-nav
+    {
         display: block;
-        width: 300px;
-        margin: 20px auto;
+        height: 40px;
+        width: 100%;
+        background: url(bars.svg) no-repeat 98% center;
+        background-color:grey;
+        cursor: pointer;
     }
-}
+    header-inner{
+        width: 1000%;
+        padding: 0;
+    }
+    header-inner nav ul
+    {
+        overflow: hidden;
+        background: grey;
+        height: 0;
+    }
+    header-inner nav ul.open
+    {
+        height: auto;
+    }
+    header-inner nav ul li
+    {
+        float: none;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+    }
+    header-inner nav ul a{
+        color: white;
+        padding: 10px;
+        border-bottom: 1px solid grey;
+        display: block;
+        margin: 0;
+    }
 
+   }
