@@ -1,10 +1,9 @@
 body {
     background-color: white;
-    color: teal;
     font-weight: 200;
 }
 /**navbar***/
-ul {
+nav ul {
     list-style-type:none;
     margin:0;
     padding:40px;
@@ -12,11 +11,11 @@ ul {
     border-radius: 50%;
     border-bottom-left-radius: 10%;
 }
-li {
+nav ul li {
     float: left;
 
 }
-a:link,a:visited{
+nav ul li a:link,a:visited{
     display: block;
     font-weight: bold;
     color: teal;
@@ -27,7 +26,7 @@ a:link,a:visited{
     text-transform: uppercase;
     text-decoration: none;
 }
-a:hover,a:active{
+nav ul li a:hover,a:active{
 background-color: teal;
 color: white;
 }
@@ -36,22 +35,45 @@ li{
 }
 /**navbar end here**/
 
-
-
-
-
+/*--------my slides-----*/
+#slides{
+    width: 100%;
+}
 
 
 
 
 /******footer starts here**********/
+
 #footer{
-    position: static;
-    top: 5px;
-    bottom: 5px;
-    clear: both;
-    color:whitesmoke;
-    padding: 5px;
+    position: relative;
+    padding: 20px;
     background-color: teal;
+
+}
+
+.second-footer{
+    position: relative;
+    background-color: skyblue;
+    color: white;
+}
+ /***second footer stops here***/
+
+.social .fa
+{
+    position: relative;
+    margin: 15px;
+    color: whitesmoke;
+    font-weight: bold;
+    overflow: hidden;
+    width: 20px;
+    height: 30px;
+
 }
 /***********footer ends here*********************/
+
+@media only screen and (max-width: 480px){
+    .responsive {
+      width: 100%;
+    }
+  }

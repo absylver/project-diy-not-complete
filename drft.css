@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+}
+/**navbar***/
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:40px;
+    overflow:hidden;
+    border-radius: 50%;
+    border-bottom-left-radius: 10%;
+}
+nav ul li {
+    float: left;
+
+}
+nav ul li a:link,a:visited{
+    display: block;
+    font-weight: bold;
+    color: teal;
+    background-color:transparent;
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav ul li a:hover,a:active{
+background-color: teal;
+color: white;
+}
+nav ul li{
+    float:left;
+}
+/**navbar end here**/
+
+
+/**login box style**/
+.box
+{
+    
+    position: relative;
+    top: 50%;
+    left: 30%;
+    width: 250px;
+    padding: 20px;
+    background: rgba(0,0,0,.1);
+    background: border-box;
+    box-shadow: 0 10px 15px rgba(0,0,0,.5);
+    border-radius: 10%;
+    
+    
+}
+
+
+.box h1
+{
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.box .inputbox
+{
+    position: relative;
+}
+
+
+.box .inputbox input
+{
+    width: 100%;
+    padding: 0, 0;
+    font-size: 18px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+}
+.box input[type="submit"]
+{
+    background:navy;
+    border: none;
+    outline: none;
+    padding: 30px, 20px;
+    width: 40%;
+    color: white;
+    cursor: pointer;
+    border: 10px;
+    border-radius: 20px;
+}
+div .box
+{
+    background-image: url(PROJECTDIY.jpg);
+}
+/****login box style end here***/
+
+p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 10px;
+    width: auto;
+    color: teal;
+}
+
+h1{font-weight: 100;
+    color: teal;
+    font-style: bold;
+}
+
+#footer{
+    position: relative;
+    color:whitesmoke;
+    padding: 5px 4px 3px 4px;
+    background-color: teal;
+
+}
+
+.second-footer{
+    position: relative;
+    top:2px;
+    bottom: 3px;
+    padding: 5px;
+    background-color: skyblue;
+}
+ /***second footer stops here***/
+
+ .social {
+    overflow: hidden;
+    margin: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .social ul li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* social */
+  
+    .social ul li a:link,a:visited{
+        display: block;
+        font-weight: bold;
+        color: teal;
+        background-color:transparent;
+        width: 20px;
+        text-align: center;
+        padding: 4px;
+        text-decoration: none;
+    }
+    .social ul li a:hover,a:active{
+    background-color: teal;
+    color: white;
+    }
+ 
+
+
+  /********social stops here***/
+
+
+
+img{
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+/********@media queries****/
+
+/****mobiles****/
+@media only screen and (max-width: 480px)
+{
+.box{
+    width: 150px;
+    padding: 10px;
+    font-size: 10px;
+}
+.label{
+    width: 50px;
+    padding: 10px;
+}
+.menuiconflat{
+    display: block;
+    height: 40px;
+    width: 100%;
+    background: url(menu.png) no-repeat 98% center;
+    background-color: white;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .responsive .box #header #main . {
+        display: block;
+    }
+    }
